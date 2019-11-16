@@ -1,0 +1,124 @@
+/* contact css */
+
+@charset "UTF-8";
+
+/* CSS Document */
+div {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #FFF;
+	margin: 0;
+	padding: 0;
+}
+
+/* navbar */
+.active-page {
+	text-shadow: 2px 2px 4px #00000070;
+}
+
+.whole-nav {
+	position: relative;
+}
+.bg-blue {
+	background-color: #02AEEF;
+}
+
+.nav-link-color, li, ul {
+	font-family: 'Baloo', cursive;
+	color: white!important;
+}
+
+.nav-link-color:hover {
+	color: #111e6c!important;
+}
+
+.carrie-teoh {
+	font-size: 2.20em;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+}
+
+.index-home {
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+.all-index {
+	vertical-align: center;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.wave img{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	position: relative;
+}
+
+/* content */
+.content {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.content h1 {
+	font-family: 'Baloo', cursive;
+	font-size: 2em;
+	color: #02AEEF;
+}
+
+.content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.content-01 {
+    margin-bottom: 50px;
+}
+
+.content-01 a {
+	color: black;
+}
+
+.content-01 a:hover {
+	color: #111e6c;
+	text-decoration: underline;
+}
+
+/* footer */
+.footer-waves img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.footer {
+	background-color: #02AEEF;
+	color: #FFF;
+	font-family: 'Baloo', cursive;
+	text-align: center;
+	padding: 40px;
+}
+
+.footer a {
+	color: white;
+	font-size: 1.8em;
+	display: inline;
+	margin: 5px;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: #111e6c;
+}
+
+.copyright {
+	font-size: 0.6em;
+}

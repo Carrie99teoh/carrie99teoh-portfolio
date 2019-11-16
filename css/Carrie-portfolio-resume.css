@@ -1,0 +1,264 @@
+/* resume css */
+
+@charset "UTF-8";
+
+/* CSS Document */
+div {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #FFF;
+	margin: 0;
+	padding: 0;
+}
+
+.up {
+	position: relative;
+}
+
+/* navbar */
+.active-page {
+	text-shadow: 2px 2px 4px #00000070;
+}
+
+.whole-nav {
+	z-index: 100;
+}
+.bg-blue {
+	background-color: #02AEEF;
+}
+
+.nav-link-color, li, ul {
+	font-family: 'Baloo', cursive;
+	color: white!important;
+}
+
+.nav-link-color:hover {
+	color: #111e6c!important;
+}
+
+.carrie-teoh {
+	font-size: 2.20em;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+}
+
+.index-home {
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-left: 1em
+}
+.all-index {
+	vertical-align: center;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.wave img{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	position: relative;
+}
+
+/* content */
+.row-1 {
+	height: 300px;
+	width: 300px;
+	margin-top: 170px;
+	margin-bottom: 180px;
+	z-index: 99;
+}
+/* image hover effect */
+.title-arch {
+	text-align: center;
+	margin: 50px 0;
+	font-size: 22px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.project {
+width: 300px;
+height: 300px;
+background-image: url(../image/pdf-shape.jpg);
+background-size: cover;
+background-position: center;
+padding: 0 !important;
+float:left;
+}
+
+.project-hover {
+width: 100%;
+height: 100%;
+color: #fff;
+opacity: 0;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+background-color: #02AEEF;
+padding: 30px !important;
+}
+
+.project-hover hr {
+height: 2px;
+width: 0;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+background-color: rgba(255, 255, 255, 1);
+border: 0;
+}
+
+.project-hover a {
+color: #02AEEF;
+font-family: 'Baloo', cursive;
+padding: 2px 22px;
+line-height: 40px;
+border: 2px solid rgba(255, 255, 255, 1);
+background-color: white;
+border-radius: 10px;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+.project-hover a:hover {
+border-color:white;
+color: white;
+background-color: #02AEEF;
+text-decoration: none;
+}
+
+.project:hover .project-hover {
+opacity: 1;
+}
+
+.project:hover .project-hover hr {
+width: 100%;
+height: 2px;
+}
+
+.project-hover h2 {
+	font-size: 2em;
+	font-family: 'Baloo', cursive;
+}
+
+.project-hover p {
+	font-size: 0.75em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/* parallax */
+body {
+	background: white;
+	margin: 0; }
+  
+  img {
+	height: 180px;
+	width: auto;
+   }
+
+  .img-water1-resume {
+	z-index: 3;
+  }
+  
+  .img-wheel-resume {
+	z-index: 4;
+  }
+
+  .img-wheel-eye-resume {
+	z-index: 3;
+  }
+
+  .container-parallax {
+	position: absolute; 
+	z-index: 1;
+	top: 360px;
+	left: 30px;
+
+}
+  
+  .scene > *:nth-child(1) {
+	opacity: 1.0; }
+	.scene > *:nth-child(1) button {
+	  -webkit-transform: rotate(150deg);
+		  -ms-transform: rotate(150deg);
+			  transform: rotate(150deg); }
+  
+  .scene > *:nth-child(2) {
+	opacity: 1.0; }
+	.scene > *:nth-child(2) button {
+	  -webkit-transform: rotate(120deg);
+		  -ms-transform: rotate(120deg);
+			  transform: rotate(120deg); }
+  
+  .scene > *:nth-child(3) {
+	opacity: 1.0; }
+	.scene > *:nth-child(3) button {
+	  -webkit-transform: rotate(90deg);
+		  -ms-transform: rotate(90deg);
+			  transform: rotate(90deg); }
+  
+  .scene > *:nth-child(4) {
+	opacity: 1.0; }
+	.scene > *:nth-child(4) button {
+	  -webkit-transform: rotate(60deg);
+		  -ms-transform: rotate(60deg);
+			  transform: rotate(60deg); }
+  
+  .scene > *:nth-child(5) {
+	opacity: 1.0; }
+	.scene > *:nth-child(5) button {
+	  -webkit-transform: rotate(30deg);
+		  -ms-transform: rotate(30deg);
+			  transform: rotate(30deg); }
+  
+  .scene > *:nth-child(6) {
+	opacity: 1.0; }
+	.scene > *:nth-child(6) button {
+	  -webkit-transform: rotate(0deg);
+		  -ms-transform: rotate(0deg);
+			  transform: rotate(0deg); }
+  
+/* footer */
+footer {
+	position: absolute;
+	z-index:99;
+}
+.footer-waves img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.footer {
+	background-color: #02AEEF;
+	color: #FFF;
+	font-family: 'Baloo', cursive;
+	text-align: center;
+	padding: 40px;
+}
+
+.footer a {
+	color: white;
+	font-size: 1.8em;
+	display: inline;
+	margin: 5px;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: #111e6c;
+}
+
+.copyright {
+	font-size: 0.6em;
+}
