@@ -3,7 +3,10 @@
 @charset "UTF-8";
 
 /* CSS Document */
-html, body, { scroll-behavior:smooth; }
+html, body { 
+	scroll-behavior:smooth; 
+}
+
 div {
 	margin: 0;
 	padding: 0;
@@ -100,8 +103,10 @@ a:hover.top-button-color {
 }
 
 .subjek {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 130px;
+}
+
 }
 
 .container img {
